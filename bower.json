@@ -1,0 +1,23 @@
+{
+  "name": "cssbeautify",
+  "main": "cssbeautify.js",
+  "version": "0.3.0",
+  "homepage": "http://cssbeautify.com",
+  "authors": [
+    "Ariya Hidayat <ariya@sencha.com>"
+  ],
+  "description": "Reindent and reformat CSS.",
+  "keywords": [
+    "cssbeautify",
+    "css",
+    "formatter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "assets",
+    "bin",
+    "images",
+    "test"
+  ]
+}
