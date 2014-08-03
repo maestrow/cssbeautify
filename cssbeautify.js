@@ -461,6 +461,9 @@
     if (typeof exports !== 'undefined') {
         // Node.js module.
         module.exports = exports = cssbeautify;
+    } else if (typeof define === 'function' && define.amd) {
+        // Requirejs module.
+        define(function () { return cssbeautify; });
     } else if (typeof window === 'object') {
         // Browser loading.
         window.cssbeautify = cssbeautify;
